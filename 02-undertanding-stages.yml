@@ -22,7 +22,5 @@ stages:
   jobs:
   - job: job2
     steps:
-    -ash: echo Build FirstQAJob
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+    - bash: echo Build FirstQAJob
+
