@@ -21,7 +21,6 @@ Jobs:
     displayName: 'Run a multi-line script'
 
 - Job: Job2
-  - Job: Job2
   steps:
   - script: echo Hello, world secon step!
     displayName: 'Run a one-line script'
